@@ -2,7 +2,7 @@ const express = require("express");
 const BodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectID;
-const CONNECTION_URL = "mongodb+srv://aa087159:F0615gILZ123@dictcluster-gwgtc.mongodb.net/test?retryWrites=true&w=majority"
+const CONNECTION_URL = "mongodb+srv://readonly:F0615g123@dictcluster-gwgtc.mongodb.net/test?retryWrites=true&w=majority"
 const DATABASE_NAME = "MongoDict";
 
 var app = express();
