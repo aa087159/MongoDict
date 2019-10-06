@@ -1,0 +1,32 @@
+{
+  "name": "mongodict",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "serve": "nodemon serve.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run serve\" \"npm run client\""
+  },
+  "author": "Vivian Chang",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.4.3",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0",
+    "mongodb": "^3.3.2",
+    "prop-types": "^15.7.2",
+    "react-materialize": "^3.4.1",
+    "react-router-dom": "^5.1.1",
+    "react-swipeable-views": "^0.13.3",
+    "react-tabs": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
